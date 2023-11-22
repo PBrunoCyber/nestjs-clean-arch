@@ -21,8 +21,8 @@ describe("UserEntity unit tests", () => {
     expect(sut.props.name).toBeDefined()
     expect(sut.props.name).toEqual(props.name)
     expect(typeof sut.props.name).toBe("string")
-
   })
+
   it("Getter of email field", () => {
     expect(sut.props.email).toBeDefined()
     expect(sut.props.email).toEqual(props.email)
